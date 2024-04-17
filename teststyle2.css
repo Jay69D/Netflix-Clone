@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+/* Common styles for screens up to 800px */
+.cards {
+    height: 80vh;
+}
+
+header {
+    height: 90vh;
+    background-image: url(assets/bg.jpg);
+    background-position: center center;
+    position: relative;
+}
+
+.opacity {
+    top: 0px;
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+}
+
+nav {
+    margin: 20px auto;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Common styles for all screen sizes */
+.logo,
+.nav_nav {
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.button {
+    margin: 11px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Responsive styles for screens up to 800px */
+@media only screen and (max-width: 800px) {
+    .cards {
+        height: 80vh;
+    }
+
+    .textbhai {
+        margin-left: 0; /* Adjusted for smaller screens */
+        width: 100%; /* Full width on smaller screens */
+    }
+
+    .tvbox2 {
+        margin: auto;
+    }
+
+    .textbhai2 {
+        margin-right: 0;
+    }
+
+    .faq_title,
+    .ques {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+/* Add more media queries for other screen sizes if needed */
+
+/* ... rest of your styles ... */
